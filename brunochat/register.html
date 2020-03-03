@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Bruno Chat</title>
+
+   <link rel="stylesheet" href="assets/css/bootstrap.css">
+   <link rel="stylesheet" href="assets/css/fontawesome.css">
+
+</head>
+<body>
+
+   <main class="container my-3 py-5">
+      <section class="col-5 mx-auto p-5 border rounded bg-light">
+         
+         <h1 class="font-weight-light text-center">Register</h1>
+         <hr>
+
+         <form action="scripts/register.php" method="post" class="mx-auto">
+            
+            <label for="username" class="font-weight-bold">Username</label>
+            <input type="text" name="username" id="username" value="" class="form-control">
+
+            <br>
+
+            <label for="password" class="font-weight-bold">Password</label>
+            <input type="password" name="password" id="password" value="" class="form-control">
+
+            <br>
+
+            <label for="cpassword" class="font-weight-bold">Confirm Password</label>
+            <input type="password" name="cpassword" id="cpassword" value="" class="form-control">
+
+            <input type="submit" name="register" value="Register" class="mt-4 btn btn-block btn-dark">
+            <span class="text-center">
+               <a href="index.php" class="text-muted d-block">Login</a>
+            </span>
+            
+         </form>
+
+      </section>
+   </main>
+   
+</body>
+</html>
